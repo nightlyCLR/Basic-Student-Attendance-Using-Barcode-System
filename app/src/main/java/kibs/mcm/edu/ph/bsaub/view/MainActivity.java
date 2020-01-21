@@ -12,15 +12,15 @@ import kibs.mcm.edu.ph.bsaub.R;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    Button button;
+    Button Enter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        button = findViewById(R.id.btn1);
-        button.setOnClickListener(this);
+        Enter = findViewById(R.id.btn1);
+        Enter.setOnClickListener(this);
 
     }
     @Override
